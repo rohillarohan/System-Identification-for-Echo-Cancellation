@@ -7,11 +7,12 @@ In my Project I simulated a modeling problem by feeding unit variance white Gaus
 We estimate the plant G(z) by minimizing the mean square error (MSE) between the output from the adaptive filter W(z) which is y(n) and d(n).
 
 To minimize this cost function we have used different techniques:
-    Pure LMS Algorithm
-    Sign LMS Algorithm
-    Sign-Regressor LMS Algorithm
-    Sign-Sign LMS Algorithm
-    Normalized LMS Algorithm
-    Affine Projection LMS Algorithm
-    Recursive Least Square (RLS) Algorithm
+    1) Pure LMS Algorithm
+    2) Sign LMS Algorithm
+    3) Sign-Regressor LMS Algorithm
+    4) Sign-Sign LMS Algorithm
+    5) Normalized LMS Algorithm
+    6) Affine Projection LMS Algorithm
+    7) Recursive Least Square (RLS) Algorithm
+
 At the end all the algorithms are compared.
